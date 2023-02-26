@@ -1,0 +1,127 @@
+
+<html>
+<head>
+<title>Create New Team</title>
+
+<style >
+  
+  body{
+    
+   width: 1200px;
+   height:300px;
+
+  }
+
+.newTeamHead{
+    color: darkblue;
+    font-family: Times New Roman,Bell Mt, sans-serif;
+    background-color: lightgrey;
+    border-bottom:darkblue solid 2px;
+
+}
+
+#NewTeam{
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+  font-family: cursive;
+  
+
+}
+
+.main{
+  width: 93%;
+  height: 100%;
+  border: darkblue solid 1px;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 30px ;
+  background-color: lightblue;
+}
+
+#name{
+  text-align: center;
+  border: none;
+  font-size:30px;
+  font-family: monospace;
+  margin-left:30%;
+  background-color: lightblue;
+  padding-top: 50px;
+  
+}
+
+#img2{
+  padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+th{
+  font-size: 100px;
+}
+
+#chooseAgent{
+  font-size: 20px;
+  color: darkblue;
+  font-family: cursive;
+}
+
+#admin,#date ,#num{
+  font-size:20px;
+  font-family: monospace;
+}
+
+#smt{
+  width: 1000px;
+  heigth: 60px;
+  color: white;
+  text-align: center;
+  padding:10px 10px 10px 20px;
+
+}
+
+
+</style>
+</head>
+<body>
+ 
+ <!--Header part -->
+ <fieldset>
+
+  <header>
+    <div class="newTeamHead">
+    <div id='NewTeam'>Create New Team</div>
+    <hr>
+  </div>
+  </header>
+
+  </fieldset>
+<!--main part -->
+<form>
+<fieldset>
+<div class="main">
+  
+  <input type="text" placeholder="Enter Team Name" id="name">
+  <hr>
+
+  <div id="admin">Team Admin:<input type="text" placeholder="Enter the Admin Name" required="Enter the Team Name"><br></div>
+  <hr>
+  <div id="date">Date:<input type="Date" name="date" required="Select Date"><br></div>
+  <hr>
+  <div id="num">No of Agents:<input type="number" name="num" id="num" required="Select No of Agents" placeholder="Number of Agents ! "><br></div>
+  <hr>
+
+    </div>
+   </fieldset>
+   <fieldset>
+     <div id="smt">
+      <div id="submit"></div><input type="submit" name="smt" value="Save" ></div>
+    </div>
+   </fieldset>
+</form>
+</body>
+</html>
